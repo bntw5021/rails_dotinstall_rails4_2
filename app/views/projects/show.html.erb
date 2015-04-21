@@ -19,7 +19,7 @@
 <script>
 $(function() {
   $("input[type=checkbox]").click(function() {
-    $.post('/project/'+$(this).data('project_is')+'/tasks/'+$(this).data('id')+'/toggle');
+    $.post('/projects/'+$(this).data('project_is')+'/tasks/'+$(this).data('id')+'/toggle');
   });
 });
 </script>
